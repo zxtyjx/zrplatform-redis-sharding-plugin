@@ -10,8 +10,8 @@
 import RedisSharding from 'zrplatform-redis-sharding-plugin';
 const sharding = new Sharding(
   [
-    { host: '127.0.0.1', port: '16379' ,password: 'masterkey1234'},
-    { host: '127.0.0.1', port: '16380' ,password: 'masterkey123'},
+    { host: '127.0.0.1', port: '16379' ,password: '******'},
+    { host: '127.0.0.1', port: '16380' ,password: '******'},
   ]
 )
 
